@@ -1,0 +1,31 @@
+.box {
+    margin: 3% 20% 1% 20%;
+}
+
+.searchArea {
+    width: 80%;
+    height: 35px;
+    background: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.searchIcon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -40px;
+    margin-top: 5px;
+}
+
+.cancelIcon {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    margin-left: -100px;
+    margin-top: 5px;
+    cursor: pointer;
+}

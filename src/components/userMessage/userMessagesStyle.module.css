@@ -1,0 +1,114 @@
+.messagesWrapperBox {
+    width: 90%;
+    height: 80%;
+    background: white;
+    margin: 0 auto;
+}
+
+.svgMale {
+    width: 30px;
+    height: 30px;
+}
+
+.svgFemale {
+    width: 30px;
+    height: 30px;
+}
+
+.maleBox {
+    background: rgba(139, 145, 221, 0.4);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+}
+
+.femaleBox {
+    background: rgba(246, 87, 110, 0.4);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+
+}
+
+.messenger {
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 34px;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.nameAndPhoneStyle {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tableBoxRead {
+    display: grid;
+    padding: 25px 25px;
+    grid-template-columns: 100px 180px 1fr 60px 60px;
+    border-bottom: 1px solid #cdcccc;
+    background: white;
+}
+
+.tableBoxUnRead {
+    display: grid;
+    padding: 25px 25px;
+    grid-template-columns: 100px 180px 1fr 60px 60px;
+    border-bottom: 1px solid #cdcccc;
+    background: #f7f9ff;
+}
+
+.messageText {
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    color: #8B91DD;
+    cursor: pointer;
+}
+
+.header {
+    background: #EAF2FF;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.time {
+    color: #8E8E93;
+}
+
+.svgRefresh {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 5% 20px 0;
+}
+
+.loadMessage {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 32px;
+}
+
+.highLight {
+    color: #2C7DFA;
+}
